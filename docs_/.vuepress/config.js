@@ -1,13 +1,13 @@
 /**
  * base:
- * En desarrollo: /carpetas_compiladas_vuepress/3-tutorial-laravel/
- * En producción: /3-tutorial-laravel/
+ * En desarrollo: /carpetas_compiladas_vuepress/4-documentacion/
+ * En producción: /4-documentacion/
  */
 
-module.exports = {
-  title: 'Laravel',
-  description: 'Aprende a utilizar Laravel en tus proyectos web',
-  base: '/carpetas_compiladas_vuepress/3-tutorial-laravel/',
+ module.exports = {
+  title: 'Documentación',
+  description: 'Documentacion para las tecnologías estudiadas',
+  base: '/4-documentacion/',
   locales:{
     '/':{
       lang: 'es-ES'
@@ -21,6 +21,8 @@ module.exports = {
     ],
     sidebar:[
         '/',
+        '/vuepress/',
+        '/git/',        
         '/bases-datos/',
         '/auth/',
         '/vue/',
