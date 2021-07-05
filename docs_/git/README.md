@@ -2,23 +2,23 @@
 
 Podemos entrar a la web oficial de [Git](https://git-scm.com/)<br>
 Podemos entrar a la web oficial de [Github](https://github.com/)<br>
+Repositorios de Github: [Bluuweb](https://github.com/bluuweb), [Jorge Ernesto](https://github.com/jorge-ernesto)
 
-Repositorios de Github: [Bluuweb](https://github.com/bluuweb), [Jorge Ernesto](https://github.com/jorge-ernesto)<br>
-Podemos entrar a la documentación creada por [Bluuweb](https://bluuweb.github.io/tutorial-github/guia/)<br>
+## ¿Qué es Git y Github?
 
-## Videos utiles
-En esta seccion pondremos videos utiles:
-
-[Curso: GIT - GITHUB [Desde Cero]](https://www.youtube.com/playlist?list=PLPl81lqbj-4I8i-x2b5_MG58tZfgKmJls)
+::: warning Aviso
+Podemos entrar a la [documentación creada por Bluuweb sobre Git](https://bluuweb.github.io/tutorial-github/guia/)
+:::
 
 ## Enlaces utiles
+
 En esta seccion pondremos enlaces utiles:
 
 ## Apuntes varios
+
 En esta seccion pondremos apuntes varios:
 
-**Git**
-
+### Git
 ```
 git config --global user.name “Monalisa” (Configurar)
 git config --global user.name (Mostrar)
@@ -91,8 +91,7 @@ git pull origin master
 git push sistemaweb
 ```
 
-**Heroku**
-
+### Heroku
 ```
 cd C:\xampp\htdocs\2 Bootstrap\4 Bootstrap 4- El Curso Completo, Práctico y Desde Cero\bootstrap
 

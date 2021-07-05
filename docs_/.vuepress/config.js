@@ -22,14 +22,12 @@
     sidebar:[
         '/',
         '/vuepress/',
-        '/git/',        
-        '/bases-datos/',
-        '/auth/',
-        '/vue/',
-        '/trucos/',
-        '/db-relacional/',
-        '/factorias/',
-        '/api-rest/'
+        '/git/',
+        '/php/',    
+        '/laravel/',
+        '/autenticacion-en-laravel/',
+        '/angular/',
+        '/node/'
       ]
   }
  

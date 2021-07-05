@@ -6,31 +6,25 @@ Podemos entrar a la web oficial de [Markdown](https://programminghistorian.org/e
 ## ¿Qué es Vuepress?
 
 ::: warning Aviso
-[Stack Overflow nos dice](https://stackoverflow.com/tags/vuepress/info): VuePress es un generador de sitios estáticos impulsado por Vue.
-:::
+Según [Stack Overflow](https://stackoverflow.com/tags/vuepress/info): **VuePress es un generador de sitios estáticos impulsado por Vue.**
 
 VuePress es un generador de documentos minimalista con un sistema de diseño basado en componentes Vue.
 
 Entre otras características, tiene extensiones de rebajas integradas optimizadas para documentación técnica y la capacidad de aprovechar Vue dentro de los archivos de rebajas.
 
-Documentos oficiales: [Vuepress](https://vuepress.vuejs.org/)<br>
-Repo oficial: [Github](https://github.com/vuejs/vuepress)
-
-## Videos utiles
-
-En esta seccion pondremos videos utiles:
-
-[VuePress - Generador de Sitios Estáticos con VUE JS[ ESPAÑOL ]](https://www.youtube.com/watch?v=o334x1W_RDY)
+* Official docs: [Vuepress](https://vuepress.vuejs.org/)<br>
+* Official repo: [Github](https://github.com/vuejs/vuepress)
+:::
 
 ## Enlaces utiles
 
 En esta seccion pondremos enlaces utiles:
 
-[Prerrequisitos](https://vuepress.vuejs.org/guide/getting-started.html#prerequisites)<br>
-[Instalacion Manual](https://vuepress.vuejs.org/guide/getting-started.html#manual-installation)<br>
-[Estructura del directorio](https://vuepress.vuejs.org/guide/directory-structure.html#directory-structure)<br>
-[Configuracion](https://vuepress.vuejs.org/guide/basic-config.html#configuration)<br>
-[Tema por defecto](https://vuepress.vuejs.org/theme/default-theme-config.html#default-theme-config)<br>
+* [Prerrequisitos](https://vuepress.vuejs.org/guide/getting-started.html#prerequisites)<br>
+* [Instalacion Manual](https://vuepress.vuejs.org/guide/getting-started.html#manual-installation)<br>
+* [Estructura del directorio](https://vuepress.vuejs.org/guide/directory-structure.html#directory-structure)<br>
+* [Configuracion](https://vuepress.vuejs.org/guide/basic-config.html#configuration)<br>
+* [Tema por defecto](https://vuepress.vuejs.org/theme/default-theme-config.html#default-theme-config)<br>
 
 ## Apuntes varios
 
