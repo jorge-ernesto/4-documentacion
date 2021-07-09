@@ -27,7 +27,8 @@
         '/laravel/',
         '/autenticacion-en-laravel/',
         '/angular/',
-        '/node/'
+        '/node/',
+        '/portafolio/',
       ]
   }
  
