@@ -19,8 +19,8 @@ En esta seccion pondremos enlaces utiles:
 * [Crear helpers en Laravel 5 | Victor Robles](https://victorroblesweb.es/2018/01/18/crear-helpers-en-laravel-5/)
 * [Cabeceras HTTP en PHP para permitir el acceso CORS - Victor Robles | Victor Robles](https://victorroblesweb.es/2017/04/23/cabeceras-http-php-permitir-acceso-cors/)
 * [Evitar error CORS Access-Control-Allow-Origin con AJAX - Victor Robles | Victor Robles](https://victorroblesweb.es/2016/01/20/evitar-error-cors-access-control-allow-origin-con-ajax/)
-* [Saber la versión de Laravel que tengo instalada](https://desarrolloweb.com/faq/saber-version-laravel-instalada)
 * [como instalar una version anterior de laravel con composer ? ejemplo la version 5.1](https://platzi.com/comunidad/aa351770-2d96-4841-8e0c-e5528dd53558/)
+* [Saber la versión de Laravel que tengo instalada](https://desarrolloweb.com/faq/saber-version-laravel-instalada)
 * [Establecer puerto para php artisan.php serve](https://qastack.mx/programming/17990820/set-port-for-php-artisan-php-serve)
 * [Laravel: Soporte PHP 8 - El Blog de Laravel](https://blog.laravel.com/laravel-php-8-support)
 

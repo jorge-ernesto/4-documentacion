@@ -23,6 +23,8 @@ En esta seccion pondremos enlaces utiles:
 * [¿Cual es la version de angular que tengo instalada?](https://es.stackoverflow.com/questions/205257/cual-es-la-version-de-angular-que-tengo-instalada)
 * [Problema al desinstalar Angular CLI](https://www.it-swarm-es.com/es/node.js/no-se-puede-desinstalar-angular-cli/831387397/#:~:text=Si%20tiene%20problemas%20con%20angular,con%20su%20nombre%20de%20usuario.)
 * [Reemplazar HTML Entities con JavaScript](https://victorroblesweb.es/2019/01/20/reemplazar-html-entities-con-javascript/)
+* [Jquery en Angular](https://victorroblesweb.es/2016/12/26/como-usar-jquery-en-angular-2/)
+* [Variables en TypeScript](https://www.cosmiclearn.com/lang-es/typescript-variables.php)
 
 ## Apuntes varios
 
@@ -71,7 +73,7 @@ ng --version
 ```
 ng new blog-angular (Creamos el proyecto)
 ng serve (Levantamos el proyecto)
-ng serve --open (Levantamos el proyecto)
+ng serve --open (Levantamos el proyecto y abrimos en navegador)
 
 Dependencias
 Las dependencias siempre estan instaladas en packgage.json del proyecto
