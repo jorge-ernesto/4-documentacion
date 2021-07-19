@@ -1,7 +1,9 @@
 # Angular 10
 
 Podemos entrar a la web oficial de [Angular](https://angular.io/)<br>
-Podemos entrar a la web oficial de [Node](https://nodejs.org/es/)
+Podemos entrar a la web oficial de [Angular CLI](https://angular.io/cli)<br>
+Podemos entrar a la web oficial de [Node](https://nodejs.org/es/)<br>
+Podemos entrar a la web oficial de [npm](https://www.npmjs.com/)
 
 ## ¿Qué es Angular?
 
@@ -19,7 +21,9 @@ Según [Desarrollo web](https://desarrolloweb.com/articulos/angular-cli.html): *
 
 En esta seccion pondremos enlaces utiles:
 
-* [Instalamos Angular](https://www.udemy.com/course/master-en-desarrollo-web-full-stack-angular-node-laravel-symfony/learn/lecture/13239438#overview)
+* [Instalamos Angular](https://www.udemy.com/course/master-en-desarrollo-web-full-stack-angular-node-laravel-symfony/learn/lecture/13239438#overview) ---> Master en webs Full Stack: Angular, Node, Laravel, Symfony +
+* [Instalamos Angular](https://www.udemy.com/course/master-en-desarrollo-web-full-stack-angular-node-laravel-symfony/learn/lecture/13666344#overview) & [Instalar Angular 7 paso a paso - Victor Robles](https://victorroblesweb.es/2018/11/20/instalar-angular-7-paso-a-paso/) ---> Master en webs Full Stack: Angular, Node, Laravel, Symfony +
+* [Instalamos Angular](https://www.udemy.com/course/master-en-javascript-aprender-js-jquery-angular-nodejs-y-mas/learn/lecture/10311524#overview) ---> Master en JavaScript: Aprender JS, jQuery, Angular, NodeJS
 * [¿Cual es la version de angular que tengo instalada?](https://es.stackoverflow.com/questions/205257/cual-es-la-version-de-angular-que-tengo-instalada)
 * [Problema al desinstalar Angular CLI](https://www.it-swarm-es.com/es/node.js/no-se-puede-desinstalar-angular-cli/831387397/#:~:text=Si%20tiene%20problemas%20con%20angular,con%20su%20nombre%20de%20usuario.)
 * [Reemplazar HTML Entities con JavaScript](https://victorroblesweb.es/2019/01/20/reemplazar-html-entities-con-javascript/)
@@ -40,16 +44,18 @@ npm -v
 ### Instalamos Angular
 1. Actualizamos **npm** a su ultima versión, borramos cache y desactivamos auditorias
 ```
-npm install -g npm@latest 
+npm install -g npm@latest (Lo mejor no es usar este comando, sino actualizar desde el ejecutable de la web e instalar la versión LTS)
 npm cache clean --force 
+npm cache verify & npm cache clear --force
 npm set audit false
 ```
 
 2. Desinstalar versiones anteriores de **Angular CLI**, borramos cache
 ```
-npm unistall -g angular-cli 
-npm unistall -g @angular/cli
+npm uninstall -g angular-cli 
+npm uninstall -g @angular/cli
 npm cache clean --force (Borramos de nuevo la cache para eliminar todos los posibles conflictos que tengamos con npm)
+npm cache verify & npm cache clear --force (Borramos la cache, se verifico y se comprimio, se elimino lo que se tuvo que eliminar / Para asegurarnos, borramos la cache, y borramos los paquetes antiguos, borramos lo que tenga que borrar)
 
 ng --version
 which ng (Si aun obtenemos angular-cli, ejecutar el siguiente comando para obtener la ruta ng y repetir el proceso)
@@ -58,17 +64,36 @@ which ng (Si aun obtenemos angular-cli, ejecutar el siguiente comando para obten
 3. Instalamos **Angular CLI** en su ultima version
 ```
 npm install -g @angular/cli (Intalar la ultima version de angular-cli)
-npm install -g @angular/cli@10.2.0 (Instalar version especifica de angular-cli, esta es la version mas estable que encontre) 
+npm install -g @angular/cli@10.2.0 (Instalar version especifica de angular-cli, esta es la version mas estable que encontre, no se instalo la version @angular/cli@10.2.5 debido a que aparece el mensaje indicando que no se encuentra dicha versión) 
 
 ng --version
 ```
 
 ### blog-angular
+
+::: warning Notas de la instalación de blog-angular
+Cuando cree este proyecto lo hice con Angular CLI: 10.2.0, esto debido a que cuando instale la ultima version de Angular CLI, tuve problemas al instalar el Froala, no podia instalarlo
+:::
+
 * [Instalamos Jquery](https://www.npmjs.com/package/jquery)
 * [Instalamos bootstrap](https://www.npmjs.com/package/bootstrap)
 * [Instalamos angular-froala-wysiwyg](https://www.npmjs.com/package/angular-froala-wysiwyg)
-* [Problema con angular-froala-wysiwyg](https://github.com/froala/angular-froala-wysiwyg/issues/4)
 * [Instalamos angular-file-uploader](https://www.npmjs.com/package/angular-file-uploader)
+* [Problema de compatibilidad entre angular-froala-wysiwyg y ngModel](https://github.com/froala/angular-froala-wysiwyg/issues/4)
+
+::: warning Respuesta con la solución
+Se soluciono usando input tipo hidden
+:::
+
+* [Problema con dependencia al ejecutar npm-update o crear nuevo proyecto - 2021-07-18](https://stackoverflow.com/questions/68339098/when-i-run-ng-new-npm-has-a-dependency-problem)
+
+::: warning Respuesta con la solución
+Tuve este mismo problema con un proyecto nuevo, etc.
+
+En el generado package.json, debería ver una línea que dice "jasmine-core": "~3.7.0"pero parece que otras dependencias (creo que karma según la salida de error aquí) requieren jasmine-core3.8.0 o superior. Simplemente edite la línea que dice "jasmine-core": "~3.7.0",ser "jasmine-core": "~3.8.0",y luego ejecútela manualmente npm install y debería tener éxito.
+
+A continuación, debería poder ejecutar ng serve --open desde el mismo directorio y hacerlo funcionar correctamente.
+:::
 
 ```
 ng new blog-angular (Creamos el proyecto)
@@ -94,4 +119,19 @@ ng g component components/post-new
 ng g component components/post-detail
 ng g component components/post-edit
 ng g component components/category-detail
+ng g component components/profile
+ng g component components/post-list
+```
+
+### aprendiendo-angular
+
+```
+ng new aprendiendo-angular (Creamos el proyecto)
+ng serve (Levantamos el proyecto)
+ng serve --open (Levantamos el proyecto y abrimos en navegador)
+
+Dependencias
+Las dependencias siempre estan instaladas en packgage.json del proyecto
+
+npm update (Actualizar las dependencias que ya tenga, pero ademas instalara las dependencias que faltan)
 ```
