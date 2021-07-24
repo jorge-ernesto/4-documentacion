@@ -67,6 +67,37 @@ php artisan list (Lista de comandos)
 * [Muchos a muchos, users, roles, y role_user](https://laravel.com/docs/7.x/eloquent-relationships#many-to-many)
 * [Localization](https://laravel.com/docs/7.x/localization)
 * [Hashing](https://laravel.com/docs/7.x/hashing)
+::: warning Notas
+* Laravel proporciona Hash::make y Hash::check que es el equivalente a usar password_hash y password_verify en funciones ordinarias de PHP
+* Ver el archivo [http://localhost/hash.php](http://localhost/hash.php)
+```php
+<?php 
+
+// Creamos hash de contraseña usando algorito MD5
+$pwd = Hash("MD5", "admin");
+echo "MD5: {$pwd} <br>";
+echo "Caracteres: ".strlen($pwd)."<br><br>";
+
+// Creamos hash de contraseña usando algorito SHA256
+$pwd = Hash("SHA256", "admin");
+echo "SHA256: {$pwd} <br>";
+echo "Caracteres: ".strlen($pwd)."<br><br>";
+
+// Creamos hash de contraseña usando algorito PASSWORD_BCRYPT
+$pwd = password_hash("admin", PASSWORD_BCRYPT, ['cost' => 4]);
+echo "PASSWORD_BCRYPT: {$pwd} <br>";
+echo "Caracteres: ".strlen($pwd)."<br><br>";
+
+// Verificar contraseña
+$pwdvrf = password_verify("admin", $pwd);
+if($pwdvrf) {
+   echo '¡La contraseña es válida!';
+} else {
+    echo 'La contraseña no es válida.';
+}
+```
+:::
+
 * [findOrFail or where](https://laracasts.com/discuss/channels/eloquent/non-static-method-illuminatedatabaseeloquentmodelupdate-should-not-be-called-statically)
 * [findOrFail() / where('id', $id)->first() / where('id', $id)->get()](https://stackoverflow.com/questions/30888527/findorfail-laravel-5-function-for-specific-field)
 
