@@ -68,7 +68,8 @@ php artisan list (Lista de comandos)
 * [Localization](https://laravel.com/docs/7.x/localization)
 * [Hashing](https://laravel.com/docs/7.x/hashing)
 ::: warning Notas
-* Laravel proporciona Hash::make y Hash::check que es el equivalente a usar password_hash y password_verify en funciones ordinarias de PHP
+* Laravel proporciona Hash::make y Hash::check que es el equivalente a usar [password_hash](https://www.php.net/manual/es/function.password-hash.php) y [password_verify](https://www.php.net/manual/es/function.password-verify.php) que son funciones de PHP
+* Usamos Hash::make y Hash::check en [api-rest-laravel](/laravel/#api-rest-laravel)
 * Ver el archivo [http://localhost/hash.php](http://localhost/hash.php)
 ```php
 <?php 
