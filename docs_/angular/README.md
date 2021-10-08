@@ -123,10 +123,10 @@ ng g component components/profile
 ng g component components/post-list
 ```
 
-### aprendiendo-angular
+### master-javascript
 
 ```
-ng new aprendiendo-angular (Creamos el proyecto)
+ng new master-javascript (Creamos el proyecto)
 ng serve (Levantamos el proyecto)
 ng serve --open (Levantamos el proyecto y abrimos en navegador)
 
