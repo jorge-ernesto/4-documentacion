@@ -7,7 +7,7 @@ Esta guía está en constante actualización, podría no estar completa.
 :::
 
 ## Tecnologías actuales
-1. [Vuepress](/4-documentacion/vuepress)
+1. [VuePress](/4-documentacion/vuepress)
 2. [Git / Github](/4-documentacion/git)
 3. [PHP](/4-documentacion/php)
 4. [Laravel](/4-documentacion/laravel)

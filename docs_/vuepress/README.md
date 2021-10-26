@@ -1,9 +1,9 @@
-# Vuepress
+# VuePress
 
-Podemos entrar a la web oficial de [Vuepress](https://vuepress.vuejs.org/)<br>
+Podemos entrar a la web oficial de [VuePress](https://vuepress.vuejs.org/)<br>
 Podemos entrar a la web oficial de [Markdown](https://programminghistorian.org/es/lecciones/introduccion-a-markdown)
 
-## ¿Qué es Vuepress?
+## ¿Qué es VuePress?
 
 ::: warning Aviso
 Según [Stack Overflow](https://stackoverflow.com/tags/vuepress/info): **VuePress es un generador de sitios estáticos impulsado por Vue.**
@@ -12,8 +12,10 @@ VuePress es un generador de documentos minimalista con un sistema de diseño bas
 
 Entre otras características, tiene extensiones de rebajas integradas optimizadas para documentación técnica y la capacidad de aprovechar Vue dentro de los archivos de rebajas.
 
-* Official docs: [Vuepress](https://vuepress.vuejs.org/)<br>
+* Official docs: [VuePress](https://vuepress.vuejs.org/)<br>
 * Official repo: [Github](https://github.com/vuejs/vuepress)
+
+Podemos entrar al [video creado por Bluuweb sobre VuePress](https://www.youtube.com/watch?v=o334x1W_RDY)<br> 
 :::
 
 ## Enlaces utiles
@@ -21,7 +23,7 @@ Entre otras características, tiene extensiones de rebajas integradas optimizada
 En esta seccion pondremos enlaces utiles:
 
 * [Prerrequisitos](https://vuepress.vuejs.org/guide/getting-started.html#prerequisites)<br>
-* [Instalacion Manual](https://vuepress.vuejs.org/guide/getting-started.html#manual-installation)<br>
+* [Instalacion Manual (Aqui crea por defecto el repositorio con el nombre 'vuepress-starter')](https://vuepress.vuejs.org/guide/getting-started.html#manual-installation)<br>
 * [Estructura del directorio](https://vuepress.vuejs.org/guide/directory-structure.html#directory-structure)<br>
 * [Configuracion](https://vuepress.vuejs.org/guide/basic-config.html#configuration)<br>
 * [Tema por defecto](https://vuepress.vuejs.org/theme/default-theme-config.html#default-theme-config)<br>
@@ -32,7 +34,7 @@ En esta seccion pondremos apuntes varios:
 
 #### Creacion de repositorio
 
-Para crear un nuevo repositorio Vuepress comunmente tendriamos que ver los enlaces de [Enlaces utiles](/vuepress/#enlaces-utiles), sin embargo algo que podemos hacer es:
+Para crear un nuevo repositorio VuePress comunmente tendriamos que ver los enlaces de [Enlaces utiles](/vuepress/#enlaces-utiles), sin embargo algo que podemos hacer es:
 1. Copiar una carpeta ya creada, yo uso el repositorio `3-tutorial-laravel` ubicado en la carpeta `aprendiendo-vuepress`
 2. Eliminamos la carpeta `node_modules`
 2. Eliminamos la carpeta `docs`
