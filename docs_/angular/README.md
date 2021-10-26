@@ -1,4 +1,4 @@
-# Angular 10
+# Angular 10, 11
 
 Podemos entrar a la web oficial de [Angular](https://angular.io/)<br>
 Podemos entrar a la web oficial de [Angular CLI](https://angular.io/cli)<br>
@@ -57,7 +57,7 @@ npm uninstall -g @angular/cli
 npm cache clean --force (Borramos de nuevo la cache para eliminar todos los posibles conflictos que tengamos con npm)
 npm cache verify & npm cache clear --force (Borramos la cache, se verifico y se comprimio, se elimino lo que se tuvo que eliminar / Para asegurarnos, borramos la cache, y borramos los paquetes antiguos, borramos lo que tenga que borrar)
 
-ng --version
+ng --version (Verificar desinstalación de Angular CLI)
 which ng (Si aun obtenemos angular-cli, ejecutar el siguiente comando para obtener la ruta ng y repetir el proceso)
 ```
 
@@ -66,7 +66,7 @@ which ng (Si aun obtenemos angular-cli, ejecutar el siguiente comando para obten
 npm install -g @angular/cli (Intalar la ultima version de angular-cli)
 npm install -g @angular/cli@10.2.0 (Instalar version especifica de angular-cli, esta es la version mas estable que encontre, no se instalo la version @angular/cli@10.2.5 debido a que aparece el mensaje indicando que no se encuentra dicha versión) 
 
-ng --version
+ng --version (Verificar instalación de Angular CLI, se puede ejecutar en la consola sin una ruta especifica o en una carpeta dentro de un proyecto de Angular)
 ```
 
 ### blog-angular
@@ -85,7 +85,7 @@ Cuando cree este proyecto lo hice con Angular CLI: 10.2.0, esto debido a que cua
 Se soluciono usando input tipo hidden
 :::
 
-* [Problema con dependencia al ejecutar npm-update o crear nuevo proyecto - 2021-07-18](https://stackoverflow.com/questions/68339098/when-i-run-ng-new-npm-has-a-dependency-problem)
+* [Problema con dependencia al ejecutar npm-update o crear nuevo proyecto](https://stackoverflow.com/questions/68339098/when-i-run-ng-new-npm-has-a-dependency-problem)
 
 ::: warning Respuesta con la solución
 Tuve este mismo problema con un proyecto nuevo, etc.
@@ -124,6 +124,20 @@ ng g component components/post-list
 ```
 
 ### master-javascript
+
+::: warning Notas de la instalación de blog-angular
+Cuando cree este proyecto lo hice con Angular CLI: 10.2.0, esto debido a que el proyecto blog-angular ya lo habia utilizado
+:::
+
+* [Error angular: el tipo genérico 'ModuleWithProviders' requiere 1 argumento de tipo](https://stackoverflow.com/questions/62755093/angular-error-generic-type-modulewithproviderst-requires-1-type-arguments)
+
+::: warning Respuesta con la solución
+La solución para el mismo error en mi versión Angular 10.1.3 fue cambiar el parámetro de exportación a.
+
+Con error: ... / Después del cambio: ...
+:::
+
+* [Web de pruebas para hacer peticiones REST (https://reqres.in/)](https://reqres.in/)
 
 ```
 ng new master-javascript (Creamos el proyecto)
