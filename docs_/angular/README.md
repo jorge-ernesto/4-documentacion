@@ -29,6 +29,13 @@ En esta seccion pondremos enlaces utiles:
 * [Reemplazar HTML Entities con JavaScript](https://victorroblesweb.es/2019/01/20/reemplazar-html-entities-con-javascript/)
 * [Jquery en Angular](https://victorroblesweb.es/2016/12/26/como-usar-jquery-en-angular-2/)
 * [Variables en TypeScript](https://www.cosmiclearn.com/lang-es/typescript-variables.php)
+* [¿Cuál es la opción --save para la instalación de npm?](https://www.it-swarm-es.com/es/node.js/cual-es-la-opcion-save-para-la-instalacion-de-npm/1043235520/#:~:text=A%20partir%20de%20npm%205.0,save%20ya%20no%20es%20necesaria.)
+* [Guía de Estilo para Angular](https://angular.io/guide/styleguide)
+* [Guía de Estilo para JavaScript](http://developinginspanish.com/2018/03/31/guia-de-estilo-javascript-de-google/)
+* [Lista de compatibilidad para Angular - Referencia StackOverflow](https://stackoverflow.com/questions/60248452/is-there-a-compatibility-list-for-angular-angular-cli-and-node-js)
+* [Lista de compatibilidad para Angular - Referencia Github](https://gist.github.com/LayZeeDK/c822cc812f75bb07b7c55d07ba2719b3)
+* [Versiones de Angular](https://angular.io/docs)
+* [Versiones de Node](https://nodejs.org/es/download/releases/)
 
 ## Apuntes varios
 
@@ -134,7 +141,17 @@ Cuando cree este proyecto lo hice con Angular CLI: 10.2.0, esto debido a que el 
 ::: warning Respuesta con la solución
 La solución para el mismo error en mi versión Angular 10.1.3 fue cambiar el parámetro de exportación a.
 
-Con error: ... / Después del cambio: ...
+Con error:
+```typescript
+export const appRoutingProviders: any[] = [];
+export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
+```
+
+Después del cambio:
+```typescript
+export const appRoutingProviders: any[] = [];
+export const routing: ModuleWithProviders<any> = RouterModule.forRoot(appRoutes);
+```
 :::
 
 * [Web de pruebas para hacer peticiones REST (https://reqres.in/)](https://reqres.in/)

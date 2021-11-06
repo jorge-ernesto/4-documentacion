@@ -31,7 +31,9 @@ En esta seccion pondremos enlaces utiles:
 ### Instalamos Laravel 7.x
 Instalamos [Composer](https://getcomposer.org/) desde su web
 ```
-composer global require laravel/installer
+composer global require laravel/installer (Instalar instalador de Laravel)
+
+laravel --version (Verificar versión / instalación de instalador de Laravel)
 ```
 
 ### fundamentos_blogbluuweb 

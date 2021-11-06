@@ -2,7 +2,7 @@
 
 Podemos entrar a la web oficial de [PHP - Documentación](https://www.php.net/manual/es/)<br>
 Podemos entrar a la web oficial de [PHP - Versiones](https://www.php.net/downloads)<br>
-Podemos entrar a la web oficial de [Guia de Estilo para PHP](https://www.mclibre.org/consultar/php/otros/guia-estilo.html)<br>
+Podemos entrar a la web oficial de [Guía de Estilo para PHP](https://www.mclibre.org/consultar/php/otros/guia-estilo.html)<br>
 
 ## ¿Qué es PHP?
 

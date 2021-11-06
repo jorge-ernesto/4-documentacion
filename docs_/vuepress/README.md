@@ -15,7 +15,7 @@ Entre otras características, tiene extensiones de rebajas integradas optimizada
 * Official docs: [VuePress](https://vuepress.vuejs.org/)<br>
 * Official repo: [Github](https://github.com/vuejs/vuepress)
 
-Podemos entrar al [video creado por Bluuweb sobre VuePress](https://www.youtube.com/watch?v=o334x1W_RDY)<br> 
+Podemos entrar al [video creado por Bluuweb sobre VuePress](https://www.youtube.com/watch?v=o334x1W_RDY) donde explica que es VuePress, como instalarlo y como usarlo<br> 
 :::
 
 ## Enlaces utiles
