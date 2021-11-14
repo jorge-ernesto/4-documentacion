@@ -27,10 +27,10 @@ En esta seccion pondremos apuntes varios:
 Instalamos [MongoDB](https://www.mongodb.com/try/download/community) desde su web
 
 1. Descargar MongoDB localmente<br>
-<img src="/mongodb/1 Descargar MongoDB localmente.png">
+<img src="1 Descargar MongoDB localmente.png">
 
 2. Account MongoDB<br>
-<img src="/mongodb/2 Account MongoDB.png">
+<img src="2 Account MongoDB.png">
 
 3. Recordar ejecutar `mongod.exe` (Debemos tenerlo en 2do plano siempre, es el demonio de MongoDB, ubicado en `C:\Program Files\MongoDB\Server\5.0\bin`) 
 4. Recordar ejecutar `mongo.exe` (Sirve para ejecutar consultas por consola, ubicado en `C:\Program Files\MongoDB\Server\5.0\bin`) 
@@ -48,4 +48,4 @@ db.bookmarks.find({id:1}); (Buscamos en coleccion "bookmarks" el documento con e
 ```
 
 Explicacion de como almacena la información MongoDB, de todos modos ver los videos de la sección [¿Que es MongoDB?](#¿que-es-mongodb) y [Enlaces utiles](#enlaces-utiles)
-<img src="/mongodb/3 Base de Datos - Coleccion.png">
+<img :src="$withBase('/mongodb/3 Base de Datos - Coleccion.png')">
