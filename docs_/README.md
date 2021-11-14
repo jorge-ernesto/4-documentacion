@@ -12,4 +12,5 @@ Esta guía está en constante actualización, podría no estar completa.
 3. [PHP](/4-documentacion/php)
 4. [Laravel](/4-documentacion/laravel)
 5. [Angular](/4-documentacion/angular)
-6. [Node](/4-documentacion/node)
+5. [Angular](/4-documentacion/mongodb)
+7. [Node](/4-documentacion/node)

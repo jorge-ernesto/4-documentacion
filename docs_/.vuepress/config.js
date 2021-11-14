@@ -27,6 +27,7 @@
         '/laravel/',
         '/autenticacion-en-laravel/',
         '/angular/',
+        '/mongodb/',
         '/node/',
         '/portafolio/',
       ]
