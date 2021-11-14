@@ -6,7 +6,7 @@ Podemos entrar a la web oficial de [Composer](https://getcomposer.org/)
 ## ¿Qué es Laravel?
 
 ::: warning Aviso
-Podemos entrar a la [documentación creada por Bluuweb sobre Laravel](https://bluuweb.github.io/tutorial-laravel/)
+Podemos entrar a la [documentación creada por Bluuweb sobre Laravel](https://bluuweb.github.io/tutorial-laravel/) creado en VuePress
 :::
 
 ## Enlaces utiles
