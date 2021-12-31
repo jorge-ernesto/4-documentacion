@@ -6,8 +6,8 @@
 * [Luego de eliminar migracion se muestra el mensaje 'Migration not found'](https://stackoverflow.com/questions/49570823/after-deleting-the-file-for-migration-i-am-left-with-this-message-migration-not)
 * [Para correr laravel mix, escribir "npm install" y "npm run dev". El archivo de configuración se llama webpack.mix.js, alli esta especificado las rutas "resources/js/app.js" y "resources/sass/app.scss"](https://laravel.com/docs/7.x/mix#running-mix)
 
-### Autenticación Inicio rapido
-* [Autenticacion Inicio rapido](https://laravel.com/docs/7.x/authentication#authentication-quickstart)
+### Inicio rápido de autenticación
+* [Inicio rápido de autenticación](https://laravel.com/docs/7.x/authentication#authentication-quickstart)
 * [Auth Bootstrap](https://www.itsolutionstuff.com/post/laravel-7-auth-example-laravel-7-make-auth-commandexample.html)
 ```
 composer require laravel/ui:^2.4
@@ -15,8 +15,8 @@ php artisan ui bootstrap --auth
 npm install && npm run dev (Instala y compila las dependencias)
 ```
 
-### Configuración
-```php
+### Configuración luego de inicio rápido de autenticación
+```php 
 //Cambiamos la ruta HOME en app/Providers/RouteServiceProvider.php para que al loguearse se redireccione a esa ruta
 public const HOME = '/home';
 

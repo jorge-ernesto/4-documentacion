@@ -26,16 +26,8 @@ En esta seccion pondremos enlaces utiles:
 * [Instalamos Angular](https://www.udemy.com/course/master-en-javascript-aprender-js-jquery-angular-nodejs-y-mas/learn/lecture/10311524#overview) ---> Master en JavaScript: Aprender JS, jQuery, Angular, NodeJS
 * [¿Cual es la version de angular que tengo instalada?](https://es.stackoverflow.com/questions/205257/cual-es-la-version-de-angular-que-tengo-instalada)
 * [Problema al desinstalar Angular CLI](https://www.it-swarm-es.com/es/node.js/no-se-puede-desinstalar-angular-cli/831387397/#:~:text=Si%20tiene%20problemas%20con%20angular,con%20su%20nombre%20de%20usuario.)
-* [Reemplazar HTML Entities con JavaScript](https://victorroblesweb.es/2019/01/20/reemplazar-html-entities-con-javascript/)
-* [Jquery en Angular](https://victorroblesweb.es/2016/12/26/como-usar-jquery-en-angular-2/)
-* [Variables en TypeScript](https://www.cosmiclearn.com/lang-es/typescript-variables.php)
-* [¿Cuál es la opción --save para la instalación de npm?](https://www.it-swarm-es.com/es/node.js/cual-es-la-opcion-save-para-la-instalacion-de-npm/1043235520/#:~:text=A%20partir%20de%20npm%205.0,save%20ya%20no%20es%20necesaria.)
 * [Guía de Estilo para Angular](https://angular.io/guide/styleguide)
 * [Guía de Estilo para JavaScript](http://developinginspanish.com/2018/03/31/guia-de-estilo-javascript-de-google/)
-* [Lista de compatibilidad para Angular - Referencia StackOverflow](https://stackoverflow.com/questions/60248452/is-there-a-compatibility-list-for-angular-angular-cli-and-node-js)
-* [Lista de compatibilidad para Angular - Referencia Github](https://gist.github.com/LayZeeDK/c822cc812f75bb07b7c55d07ba2719b3)
-* [Versiones de Angular](https://angular.io/docs)
-* [Versiones de Node](https://nodejs.org/es/download/releases/)
 
 ## Apuntes varios
 
@@ -102,6 +94,24 @@ En el generado package.json, debería ver una línea que dice "jasmine-core": "~
 A continuación, debería poder ejecutar ng serve --open desde el mismo directorio y hacerlo funcionar correctamente.
 :::
 
+* [Reemplazar HTML Entities con JavaScript](https://victorroblesweb.es/2019/01/20/reemplazar-html-entities-con-javascript/)
+* [Jquery en Angular](https://victorroblesweb.es/2016/12/26/como-usar-jquery-en-angular-2/)
+* [Variables en TypeScript](https://www.cosmiclearn.com/lang-es/typescript-variables.php)
+* [¿Cuál es la opción --save para la instalación de npm?](https://www.it-swarm-es.com/es/node.js/cual-es-la-opcion-save-para-la-instalacion-de-npm/1043235520/#:~:text=A%20partir%20de%20npm%205.0,save%20ya%20no%20es%20necesaria.)
+* [Lista de compatibilidad para Angular - Referencia StackOverflow](https://stackoverflow.com/questions/60248452/is-there-a-compatibility-list-for-angular-angular-cli-and-node-js)
+* [Lista de compatibilidad para Angular - Referencia Github](https://gist.github.com/LayZeeDK/c822cc812f75bb07b7c55d07ba2719b3)
+* [Versiones de Angular](https://angular.io/docs)
+* [Versiones de Node](https://nodejs.org/es/download/releases/)
+
+#### Creando una tabla paginada con back-end (server-side) en Angular y Laravel
+* [Creando una tabla paginada con back-end (server-side) en Angular y Laravel](https://asfo.medium.com/creando-una-tabla-paginada-con-back-end-server-side-en-angular-5e2c90428318)
+* [Instalamos ngx-pagination](https://www.npmjs.com/package/ngx-pagination)
+* [Cambiar estilos CSS](https://www.it-swarm-es.com/es/html/cambiar-css-de-paginacion-ngx/810639767/)
+* [Cambiar estilos CSS](https://stackoverflow.com/questions/55419031/change-ngx-pagination-css)
+
+#### Uso de form.controls en lugar de form.reset
+* [Uso de form.controls en lugar de form.reset](https://stackoverflow.com/questions/50197347/how-to-reset-only-specific-fields-of-form-in-angular-5)
+
 ```
 ng new blog-angular (Creamos el proyecto)
 ng serve (Levantamos el proyecto)
@@ -115,19 +125,26 @@ npm i jquery (Instalamos Jquery)
 npm i bootstrap (Instalamos bootstrap)
 npm i angular-froala-wysiwyg (Instalamos angular-froala-wysiwyg)
 npm i angular-file-uploader (Instalamos angular-file-uploader)
+npm i ngx-pagination (Instalamos ngx-pagination)
 
 Componentes
 ng g component components/login
-ng g component components/register
 ng g component components/home
-ng g component components/error
-ng g component components/category-new
-ng g component components/post-new
-ng g component components/post-detail
-ng g component components/post-edit
-ng g component components/category-detail
+ng g component components/register
+ng g component components/user-edit
 ng g component components/profile
-ng g component components/post-list
+ng g component components/error
+
+ng g component components/category/category-index
+ng g component components/category/category-create
+ng g component components/category/category-edit
+ng g component components/category/category-post
+ng g component components/category/post-list
+ng g component components/category/category-nav-item
+
+ng g component components/post/post-create
+ng g component components/post/post-edit
+ng g component components/post/post-detail
 ```
 
 ### master-javascript
@@ -165,4 +182,12 @@ Dependencias
 Las dependencias siempre estan instaladas en packgage.json del proyecto
 
 npm update (Actualizar las dependencias que ya tenga, pero ademas instalara las dependencias que faltan)
+
+Componentes
+ng g component components/home
+ng g component components/videojuego
+ng g component components/zapatillas
+ng g component components/cursos
+ng g component components/externo
+ng g component components/contacto
 ```
