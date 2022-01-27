@@ -5,7 +5,7 @@ Podemos entrar a la web oficial de [Markdown](https://programminghistorian.org/e
 
 ## ¿Qué es VuePress?
 
-::: warning Aviso
+::: tip Aviso
 Según [Stack Overflow](https://stackoverflow.com/tags/vuepress/info): **VuePress es un generador de sitios estáticos impulsado por Vue.**
 
 VuePress es un generador de documentos minimalista con un sistema de diseño basado en componentes Vue.

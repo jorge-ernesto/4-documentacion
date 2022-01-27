@@ -5,7 +5,7 @@ Podemos entrar a la web oficial de [RoboMongo / Robo 3T](https://robomongo.org/)
 
 ## ¿Qué es MongoDB?
 
-::: warning Aviso
+::: tip Aviso
 <b>Master en JavaScript: Aprender JS, jQuery, Angular, NodeJS</b>
 * Podemos entrar al [video  "207. Introducción a MongoDB" creado por Victor Robles sobre MongoDB](https://www.udemy.com/course/master-en-javascript-aprender-js-jquery-angular-nodejs-y-mas/learn/lecture/10332142#overview)
 

@@ -2,7 +2,7 @@
 
 Está guía está diseñada para poder documentación de las diferentes tecnologías que aprendo.
 
-::: warning Aviso
+::: tip Aviso
 Esta guía está en constante actualización, podría no estar completa.
 :::
 

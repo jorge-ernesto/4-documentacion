@@ -6,7 +6,7 @@ Repositorios de Github: [Bluuweb](https://github.com/bluuweb), [Jorge Ernesto](h
 
 ## ¿Qué es Git y Github?
 
-::: warning Aviso
+::: tip Aviso
 Podemos entrar a la [documentación creada por Bluuweb sobre Git](https://bluuweb.github.io/tutorial-github/guia/) creado en VuePress
 :::
 

@@ -6,7 +6,7 @@ Podemos entrar a la web oficial de [npm](https://www.npmjs.com/)
 
 ## ¿Qué es Node?
 
-::: warning Aviso
+::: tip Aviso
 * Podemos entrar a la [documentación creada por Bluuweb sobre Node](https://bluuweb.github.io/node/)
 :::
 

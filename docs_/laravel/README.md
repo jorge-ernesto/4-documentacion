@@ -6,7 +6,7 @@ Podemos entrar a la web oficial de [SQL Power Architect](http://www.bestofbi.com
 
 ## ¿Qué es Laravel?
 
-::: warning Aviso
+::: tip Aviso
 Podemos entrar a la [documentación creada por Bluuweb sobre Laravel](https://bluuweb.github.io/tutorial-laravel/) creado en VuePress
 
 Según [Juan Carlos Arcila Díaz (Ver vídeo dando click acá)](https://www.youtube.com/watch?v=Zj0pshSSlEo&list=PLZPrWDz1MolrxS1uw-u7PrnK66DCFmhDR&index=1): 
@@ -111,7 +111,7 @@ php artisan list (Lista de comandos)
 ```
 
 ### curso_laravel
-::: warning Notas
+::: tip Notas
 * Laravel proporciona Hash::make y Hash::check que es el equivalente a usar [password_hash](https://www.php.net/manual/es/function.password-hash.php) y [password_verify](https://www.php.net/manual/es/function.password-verify.php) que son funciones de PHP
 * Usamos Hash::make y Hash::check en [api-rest-laravel](/laravel/#api-rest-laravel)
 * Ver el archivo [http://localhost/KKK/1%20util/hash.php](http://localhost/KKK/1%20util/hash.php)

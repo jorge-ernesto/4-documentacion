@@ -1,0 +1,10 @@
+# Copiar y pegar con robocopy
+robocopy docs_/.vuepress/dist/ docs /e
+
+# Iniciar el proyecto localmente (Desarrollo)
+npm run docs:dev
+
+# Compilar proyecto para subirlo a Github (Produccion)
+npm run docs:build
+
+

@@ -1,6 +1,6 @@
 # Portafolio
 
-::: warning Aviso
+::: tip Aviso
 Información sobre portafolio
 :::
 

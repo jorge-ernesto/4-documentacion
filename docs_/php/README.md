@@ -8,7 +8,7 @@ Podemos entrar a la web oficial de [Packagist](https://packagist.org/) para busc
 
 ## ¿Qué es PHP?
 
-::: warning Aviso
+::: tip Aviso
 Según [PHP](https://www.php.net/manual/es/intro-whatis.php): **PHP (acrónimo recursivo de PHP: `Hypertext Preprocessor`)** es un lenguaje de código abierto muy popular especialmente adecuado para el desarrollo web y que puede ser incrustado en HTML.
 :::
 
@@ -32,7 +32,7 @@ En esta seccion pondremos enlaces utiles:
 
 ### Instalamos Composer
 Instalamos [Composer](https://getcomposer.org/) desde su web
-::: warning Notas
+::: tip Notas
 Recordar que los paquetes se pueden descargar desde la opcion `Browse Packages` de la web de [Composer](https://getcomposer.org/) que te lleva a [Packagist](https://packagist.org/)
 :::
 
