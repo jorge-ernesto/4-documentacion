@@ -21,8 +21,8 @@
     ],
     sidebar:[
         '/',
-        '/vuepress/',
         '/git/',
+        '/vuepress/',
         '/php/',    
         '/laravel/',
         '/autenticacion-en-laravel/',

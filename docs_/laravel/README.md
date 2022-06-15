@@ -7,52 +7,57 @@ Podemos entrar a la web oficial de [SQL Power Architect](http://www.bestofbi.com
 ## ¿Qué es Laravel?
 
 ::: tip Aviso
-Podemos entrar a la [documentación creada por Bluuweb sobre Laravel](https://bluuweb.github.io/tutorial-laravel/) creado en VuePress
+Podemos entrar al [video creado por Bluuweb sobre Laravel](https://www.youtube.com/playlist?list=PLPl81lqbj-4KHPEGngoy5PSjjxcwnpCdb) donde explica los fundamentos de Laravel y a la [documentación creada por Bluuweb sobre Laravel](https://bluuweb.github.io/tutorial-laravel/) creada en VuePress
 
-Según [Juan Carlos Arcila Díaz (Ver vídeo dando click acá)](https://www.youtube.com/watch?v=Zj0pshSSlEo&list=PLZPrWDz1MolrxS1uw-u7PrnK66DCFmhDR&index=1): 
+<hr style="height: 5px; background-color: #42b983;">
+
+### Según [Juan Carlos Arcila Díaz (Ver vídeo dando click acá)](https://www.youtube.com/watch?v=Zj0pshSSlEo&list=PLZPrWDz1MolrxS1uw-u7PrnK66DCFmhDR&index=1): 
 * **Laravel es un framework de código abierto** para desarrollar aplicaciones y servicios web con PHP. 
 * Fue creado en 2011, Laravel propone en el desarrollo usar **'Routes with Clousures'** en lugar de un MVC tradicional con el objetivo de hacer el código más claro.
 
-[¿Por qué Laravel? (Ver vídeo dando click acá)](https://www.youtube.com/watch?v=Zj0pshSSlEo&list=PLZPrWDz1MolrxS1uw-u7PrnK66DCFmhDR&index=1)
+### [¿Por qué Laravel? (Ver vídeo dando click acá)](https://www.youtube.com/watch?v=Zj0pshSSlEo&list=PLZPrWDz1MolrxS1uw-u7PrnK66DCFmhDR&index=1)
 * **Eloquent-ORM (nada de SQL):** Mediante este ORM podemos acceder a los registros de la BD como si fueran objetos de PHP y no tener que ejecutar codigo SQL
 * **Motor de Plantillad (Blade):** Podemos generar un layout que contenga todos los elementos comunes de todos nuestro sitio web y asi escribir menos codigo HTML
 * **Excelente Documentación:** [Laravel](https://laravel.com/)
 * **Despliegue:** El despliegue es muy sencillo, podemos desplegar nuestra aplicacion en un servidor compartido, sin ningun problema y con un costo minimo
 
-[Eloquent (Ver vídeo dando click acá)](https://www.youtube.com/watch?v=OyXKttR7y6c&list=PLZPrWDz1MolrxS1uw-u7PrnK66DCFmhDR&index=4)
-* Eloquent es un ORM (Object-Relational mapping).
-* Es una forma de mapear los datos que se encuentran en la base de datos almacenados en un lenguaje de script SQL a objetos de PHP y viceversa.
-* Teniendo un código portable con el que no tengamos la necesidad de usar lenguaje SQL dentro de nuestras clases de PHP
+### [Eloquent, Modelo, Rutas (Ver vídeo dando click acá)](https://www.youtube.com/watch?v=OyXKttR7y6c&list=PLZPrWDz1MolrxS1uw-u7PrnK66DCFmhDR&index=4)
+* **Eloquent**
+    * Eloquent es un ORM (Object-Relational mapping).
+    * Es una forma de mapear los datos que se encuentran en la base de datos almacenados en un lenguaje de script SQL a objetos de PHP y viceversa.
+    * Teniendo un código portable con el que no tengamos la necesidad de usar lenguaje SQL dentro de nuestras clases de PHP
+* **Modelo**
+    * Eloquent hace uso de los modelos para recibir o enviar la información a la base de datos.
+    * Los modelos hacen uso de PSR-4 y namespaces, un modelo nos ayuda a definir que tabla, atributos se pueden llenar y que otros se deben mantener ocultos.
+    * Para **implementar Modelos en Laravel** debemos tener en cuenta algunas consideraciones:
+        * El nombre de los modelos se escriben en singular, en contraste con las tablas de la BD que se escriben en plural.
+        * Usan notación UpperCamelCase para sus nombres.
+* **Rutas**
+    * Petición HTTP que hace el usuario cuando ingresa una direccion URL.
+    * Esta ruta será procesada por un controlador, y este interacionará con el modelo en caso sea necesario recuperar información de la BD; luego invocará a una vista para mostrar información en el navegador.
 
-[Modelo (Ver vídeo dando click acá)](https://www.youtube.com/watch?v=OyXKttR7y6c&list=PLZPrWDz1MolrxS1uw-u7PrnK66DCFmhDR&index=4)
-* Eloquent hace uso de los modelos para recibir o enviar la información a la base de datos.
-* Los modelos hacen uso de PSR-4 y namespaces, un modelo nos ayuda a definir que tabla, atributos se pueden llenar y que otros se deben mantener ocultos.
+### [Controladores (Ver vídeo dando click acá)](https://www.youtube.com/watch?v=cvpr50f9o5Y&list=PLZPrWDz1MolrxS1uw-u7PrnK66DCFmhDR&index=5)
+* Controladores pueden agrupar las peticiones HTTP relacionada con la manipulación lógica en una clase. Los controladores normalmente se almacenan en el directorio de la aplicación ``app/Http/Controllers/``
+* Un controller usualmente trabaja asociando las peticiones con los métodos:
+    * **GET:** index, create, show, edit
+    * **POST:** store
+    * **PUT:** update
+    * **DELETE:** destroy
+    * **PATCH:** update
+* El tipo de ruta: 
+```php
+Route::resource('almacen/categoria', 'CategoriaController');
+```
+&nbsp;&nbsp;&nbsp;&nbsp;Nos creara un grupo de rutas de recursos con las peticiones: **index, create, show, edit, store, &nbsp;&nbsp;&nbsp;&nbsp;update, destroy**
 
-**Para implementar Modelos en Laravel debemos tener en cuenta algunas consideraciones:**
-* El nombre de los modelos se escriben en singular, en contraste con las tablas de la BD que se escriben en plural.
-* Usan notación UpperCamelCase para sus nombres.
-
-[Rutas (Ver vídeo dando click acá)](https://www.youtube.com/watch?v=OyXKttR7y6c&list=PLZPrWDz1MolrxS1uw-u7PrnK66DCFmhDR&index=4)
-* Petición HTTP que hace el usuario cuando ingresa una direccion URL.
-* Esta ruta será procesada por un controlador, y este interacionará con el modelo en caso sea necesario recuperar información de la BD; luego invocará a una vista para mostrar información en el navegador.
-
-[Controladores (Ver vídeo dando click acá)](https://www.youtube.com/watch?v=cvpr50f9o5Y&list=PLZPrWDz1MolrxS1uw-u7PrnK66DCFmhDR&index=5)
-* Controladores pueden agrupar las peticiones HTTP relacionada con la manipulación lógica en una clase. Los controladores normalmente se almacenan en el directorio de la aplicación ``app/Http/Controllers/``.
-
-Un controller usualmente trabaja asociando las peticiones con los métodos:
-GET   : index, create, show, edit
-POST  : store
-PUT   : update
-DELETE: destroy
-PATCH : update
-
-El tipo de ruta:
-``Route::resource('almacen/categoria', 'CategoriaController');``
-
-Nos creara un grupo de rutas de recursos con las peticiones: index, create, show, edit, store, update, destroy
-
-[Motor de Plantillas Blade](https://www.youtube.com/watch?v=pYNpjqVRnKc&list=PLZPrWDz1MolrxS1uw-u7PrnK66DCFmhDR&index=6)
-* Las plantillas tienen los segmentos de código que se repiten en mas de una vista, como por ejemplo head del HTML, menú de opciones, etc. y como deben de estar prácticamente presentes en todos lados, no tien sentido estarlos repitiendo en todas las vistas.
+### [Vistas y Plantillas Blade (Ver vídeo dando click acá)](https://www.youtube.com/watch?v=pYNpjqVRnKc&list=PLZPrWDz1MolrxS1uw-u7PrnK66DCFmhDR&index=6)
+* **Vistas**
+    * Las vistas en Laravel son la parte pública que el usuario de nuestro sistema va a poder ver
+    * Se escribe en HTML
+    * Las vistas se encuentran ubicadas en la carpeta ``resources/views``
+* **Motor de Plantillas Blade**
+    * Las plantillas tienen los segmentos de código que se repiten en mas de una vista, como por ejemplo head del HTML, menú de opciones, etc. y como deben de estar prácticamente presentes en todos lados, no tien sentido estarlos repitiendo en todas las vistas.
+    * Además de las plantillas, se cuentan con archivos que se llaman partials, estos archivos son pequeños segmentos de código que suelen ser usados comunmente en partes del sistema en especifico.
 :::
 
 ## Enlaces utiles

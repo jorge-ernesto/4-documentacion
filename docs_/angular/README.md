@@ -82,9 +82,9 @@ Cuando cree este proyecto lo hice con Angular CLI: 10.2.0, esto debido a que cua
 * [Problema de compatibilidad entre angular-froala-wysiwyg y ngModel](https://github.com/froala/angular-froala-wysiwyg/issues/4) (Se soluciono usando input tipo hidden)
 * [Problema con dependencia al ejecutar npm-update o crear nuevo proyecto](https://stackoverflow.com/questions/68339098/when-i-run-ng-new-npm-has-a-dependency-problem) 
 
-Tuve este mismo problema con un nuevo proyecto.</br>
-En el generado package.json, debería ver una línea que dice "jasmine-core": "~3.7.0"pero parece que otras dependencias (creo que karma según la salida de error aquí) requieren jasmine-core3.8.0 o superior. Simplemente edite la línea que dice "jasmine-core": "~3.7.0",ser "jasmine-core": "~3.8.0",y luego ejecútela manualmente npm install y debería tener éxito.</br>
-A continuación, debería poder ejecutar ng serve --open desde el mismo directorio y hacerlo funcionar correctamente.
+&nbsp;&nbsp;&nbsp;&nbsp;Tuve este mismo problema con un nuevo proyecto.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;En el generado package.json, debería ver una línea que dice "jasmine-core": "~3.7.0"pero parece que otras dependencias (creo que karma según la salida de error aquí) requieren jasmine-core3.8.0 o superior. Simplemente edite la línea que dice "jasmine-core": "~3.7.0",ser "jasmine-core": "~3.8.0",y luego ejecútela manualmente npm install y debería tener éxito.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;A continuación, debería poder ejecutar ng serve --open desde el mismo directorio y hacerlo funcionar correctamente.
 
 * [¿Cuál es la opción --save para la instalación de npm?](https://www.it-swarm-es.com/es/node.js/cual-es-la-opcion-save-para-la-instalacion-de-npm/1043235520/#:~:text=A%20partir%20de%20npm%205.0,save%20ya%20no%20es%20necesaria.)
 * [Reemplazar HTML Entities con JavaScript](https://victorroblesweb.es/2019/01/20/reemplazar-html-entities-con-javascript/)
