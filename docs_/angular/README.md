@@ -1,4 +1,4 @@
-# Angular 10, 11
+# Angular 10
 
 Podemos entrar a la web oficial de [Angular](https://angular.io/)<br>
 Podemos entrar a la web oficial de [Angular CLI](https://angular.io/cli)<br>
